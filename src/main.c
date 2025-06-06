@@ -57,3 +57,18 @@ int main(void)
     return 0;
 }
 
+//Exercice 5
+
+#include <stdio.h>
+
+int main(void)
+{
+    int i = 1;
+    while (i <= 50){
+        if (i % 2 == 0){
+            printf(" %d --", i);
+        }
+        i++;
+    }
+    return 0;
+}
