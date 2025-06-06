@@ -45,3 +45,15 @@ int main(void)
 }
 
 //Exercice 4
+
+int main(void)
+{
+    for (int i = 10; i >= 1; i--){
+        printf("%d\n", i);
+        if (i == 1){
+            printf("Décollage !\n");
+        }
+    }
+    return 0;
+}
+
