@@ -29,3 +29,19 @@ int main(void)
     }
     printf("Resultat : %d.\n", resultat);
 }
+
+///Exercice 3
+
+#include <stdio.h>
+
+int main(void)
+{
+    int nombre_utilisateur;
+    printf("Veuillez choisir un nombre entier.\n");
+    scanf("%d", &nombre_utilisateur);
+    for (int i = 1; i <= 10; i++){
+        printf("%d X %d = %d\n", nombre_utilisateur, i, nombre_utilisateur * i);
+    }
+}
+
+//Exercice 4
