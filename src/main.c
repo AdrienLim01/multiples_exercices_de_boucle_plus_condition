@@ -72,3 +72,23 @@ int main(void)
     }
     return 0;
 }
+
+//Exercice 6
+
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+    int resultat = 1;
+
+    printf("Veuillez choisir un entier n.\n");
+    scanf("%d", &n);
+
+    for (int i = n; i > 0; i--){
+        resultat = resultat * i;
+    }
+    printf("Resultat : %d\n", resultat);
+}
+
+//Exercice 7
