@@ -19,7 +19,7 @@ int main(void)
 {
     int i = 0;
     int nombre_utilisateur;
-    int resultat;
+    int resultat = 0;
     printf("Veuillez choisir le nombre entier de votre choix.\n");
     scanf("%d", &nombre_utilisateur);
     resultat += nombre_utilisateur;
